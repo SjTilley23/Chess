@@ -30,8 +30,3 @@ class Graphics():
                     flip = True
                     x_coord_temp = x_coord
                 rect_counter = 0
-
-    def draw_pieces(window,x_coord,y_coord,side_length):
-
-        for i in range(0,8):
-            pygame.draw.circle(window, (255,255,255),((side_length/16)+(i*(side_length/8)),(y_coord)), side_length/24)

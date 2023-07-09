@@ -20,11 +20,7 @@ while Run:
 
     #Drawing and detecting
     Graphics.Draw_Board(window,5,5,800)
-    Detection.square_mouse_detection(5,5,800)
-    Detection.click_square(Detection, previous_click,Click[0],5,5,800)
-    Graphics.draw_pieces(window,5,5,800)
-
-
+    Detection.mouse_detection(Detection,5,5,800)
 
 
 
